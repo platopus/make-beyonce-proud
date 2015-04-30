@@ -53,7 +53,7 @@ Hopefully now you can type node into the command line and see the ">" symbol. If
 
 ##Digital Dinner Menus
 
-Scenario: You love cooking for your friends. They all` get ecited when you send them calendar/facebook/plain old email invite to them - but their enthusiasm for your
+Scenario: You love cooking for your friends. They all get ecited when you send them calendar/facebook/plain old email invite to them - but their enthusiasm for your
 mouth watering dishes is becoming somewhat irritating. As the RSVPs come flooding in with one question - what is on the menu?
 
 Solution: We are going to create a simple node app that will easily let you create a digital menu that you can include in your invite.
@@ -62,18 +62,20 @@ It will consist of one static page we will be generating from a JSON file using 
 
 ###What we will be doing
 
-1. NPM install 
+1. NPM install. What did it do? 
 2. package file
-3. A little look at the code
-4. A little look at handlebars templates
-5. Run script to create most basic html page
-6. A little look at <div> and w3 schools
-7. A look at types of design (responsive vs. adaptive)
+3. A little look at the code - can you spot where EA was super lazy? 
+4. A little look at handlebars template
+5. A quick word about json (and xml). Which do you prefer? Why might we use formats like this? Why do people favour JSON?
+5. Run script to create most basic html page - does it work? Can you fix it?
+5. Can you centre align the title (h1 tag)?
+6. Can you centre align everything?
+6. A little look at <div> and w3 schools. Can we use these to centre align everything?
+7. If you were going to include a border, how would you do it? Give it a go.
+7. A look at types of design (responsive vs. adaptive). What does it look like on a mobile?
 8. Seeing what the page looks like with different css files. Look at resources to create css.
-9. Quick word about fonts
+9. Quick word about fonts. 
 10. Modifying the handlebars and node to include starters
-
-
 
 
 Extensions/Homework:
@@ -85,7 +87,7 @@ Can you take it to the next level of fancy and modify the code and your handleba
 Let's take our dinner party lead from our Spanish friends and serve tapas - can you add the functionality to create a tapas menu without breaking your existing code?
 
 Developers hate repeating themselves and they are also quite lazy - after all if you make a change to duplicated code, you have to change it multiple times which is just an exercise in copy/paste. You might also make mistakes.
-Can you modify this code to be more generic? Can you make it work with your design and not break things. This exercise will be taking you to the next level. Try looking online for resources about "repetition code smells"
+Can you modify this code to be more generic? Can you make it work with your design and not break things. This exercise will be taking you to the next level. Try looking online for resources about "repetition code smells".
 
 What about a different layout for different occasions (Birthday parties, Eurovision, funerals etc) - i.e. using the same handlebars/html but applying different css files to it? 
 
