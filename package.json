@@ -1,0 +1,14 @@
+{ "name": "make-beyonce-proud",
+  "description": "fun training exercise",
+  "version": "0.0.1",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/emashliles/make-beyonce-proud"
+  },
+  "devDependencies": {
+  	"handlebars": "3.0.3"
+  },
+  "scripts": {
+    "build": "dinner-menu-generator.js"
+  }
+}
