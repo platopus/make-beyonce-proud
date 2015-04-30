@@ -21,5 +21,16 @@ function renderToString(source, data) {
   var template = handlebars.compile(source);
   var outputString = template(data);
   console.log(outputString);
-  return outputString;
+  createFile(outputString);
+}
+
+
+function createFile (output){
+fs.writeFile("menu.html", output, function(err) {
+    if(err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+});
 }
